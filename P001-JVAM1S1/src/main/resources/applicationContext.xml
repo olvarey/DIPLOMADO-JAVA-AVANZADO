@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- configura la factura de spring para construir objetos de FacturaIva -->
+	<bean id="empleado1"
+	class="udb.net.mod1.regemp.spring.EmpleadoAsalariado" />
+	<bean id="empleado2"
+	class="udb.net.mod1.regemp.spring.EmpleadoPorServicio" />
+	<bean id="empleado3"
+	class="udb.net.mod1.regemp.spring.EmpleadoComerciante" />
+</beans>
